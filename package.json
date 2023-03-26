@@ -1,0 +1,14 @@
+{
+  "name": "votejs",
+  "version": "1.0.0",
+  "description": "On-chain voting",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ltt-fature",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.2.2"
+  }
+}

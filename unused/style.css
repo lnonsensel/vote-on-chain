@@ -1,0 +1,45 @@
+body{
+    background-color: #F0E68C;
+
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, fantasy;
+    padding-bottom: 20px;
+}
+.vvod{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New';
+    padding-bottom: 80px;
+}
+.heading{
+    margin-right: 20px;
+}
+input[type=text]{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Georgia;
+    text-align: center;
+}
+.cs{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #BC8F8F;
+    border-color: #A0522D;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.cs:active{
+    background: #FFC0CB;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.createbutton{
+    text-align: center;
+}

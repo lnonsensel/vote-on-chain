@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votes for options</title>
+    <link rel="stylesheet" href="./votes for option.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="../script.js"></script>
+</head>
+<body>
+    <header>Votes for options</header>
+    <div class="vvod">
+        <a class="heading">Enter the name</a><input type="text" class="session" id="topic-get-votes">
+        <br>
+        <a class="heading">Enter the option</a><input type="text" class="options" id="option-get-votes">
+    </div>
+    <br>
+    <div class="gvfo">
+        <button class="getvotes" onclick="getVotes()">Get votes for option</button>
+    </div>
+    <br>
+    <div class="mainmenu">
+        <a href="../index.html" class="getvotes">Main menu</a>
+    </div>
+    <br>
+    <p class="rectangle" id="votes-counter">numbers</p>
+    <br>
+    <div class="errors">
+        <p class="rec-error" id="error-handler">"error"</p>
+    </div>
+</body>
+</html>

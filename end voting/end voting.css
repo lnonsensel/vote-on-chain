@@ -1,0 +1,62 @@
+body{
+    background-color: #7B68EE;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, fantasy;
+    padding-bottom: 20px;
+}
+.vvod{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New';
+    padding-bottom: 80px;
+}
+input[type=text]{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Georgia;
+    text-align: center;
+}
+.endvoting{
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #3CB371;
+    box-shadow: 0 5px 0 #006400;
+    font-family: 'Franklin Gothic Medium';
+    margin: 20px;
+}
+.endvoting:active{
+    background: #008000;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.evb{
+    text-align: center;
+}
+.rec-error{
+    width: 500px;
+	height: 40px;
+	border: 2px solid black;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: fantasy;
+    position: relative;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 200px;
+    color: red;
+}
+.mainmenu{
+    text-align: center;
+}

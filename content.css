@@ -1,0 +1,32 @@
+body{
+    background-color: #90EE90;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, fantasy;
+    padding-bottom: 20px;
+}
+.btn{
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    background: #AFEEEE;
+    box-shadow: 0 5px 0 #00CED1;
+    font-family: 'Franklin Gothic Medium';
+    margin: 20px;
+}
+.btn:active{
+    background: #483D8B;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.buttons{
+    text-align: center;
+}
+.mainmenu{
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+body{
+    background-color: #00FA9A;
+}
+.rec-error{
+    width: 500px;
+	height: 40px;
+	border: 2px solid black;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: fantasy;
+    position: relative;
+    margin-right: auto;
+    padding-top: 10px;
+    margin-top: 70px;
+    color: red;
+}
+.mainmenu{
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, fantasy;
+    padding-bottom: 20px;
+}
+input[type=text]{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: Georgia;
+    text-align: center;
+}
+.vvod{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New';
+    padding-bottom: 80px;
+}
+.rectangle {
+	width: 1000px;
+	height: 40px;
+	border: 2px solid black;
+    border-radius: 150px;
+    border-color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: fantasy;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+.button{
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #FF8C00;
+    box-shadow: 0 5px 0 #FF4500;
+    font-family: 'Franklin Gothic Medium';
+    margin: 20px;
+}
+.button:active{
+    background: #FFA07A;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+.btn{
+    text-align: center;
+}
